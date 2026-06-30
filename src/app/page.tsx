@@ -13,7 +13,7 @@ export default function HomePage() {
   return (
     <div className="max-w-4xl mx-auto px-8 py-12">
       <div className="mb-12">
-        <h1 className="text-4xl font-bold text-gray-900 mb-3">AI 위키</h1>
+        <h1 className="text-4xl font-bold text-gray-900 mb-3">JJH WIKI</h1>
         <p className="text-lg text-gray-600">
           AI 모델, 개념, 도구에 대한 지식을 정리한 공간입니다.
         </p>

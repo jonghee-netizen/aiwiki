@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props) {
   const { slug } = await params
   const page = await getPage(slug)
   if (!page) return {}
-  return { title: `${page.title} | AI 위키`, description: page.description }
+  return { title: `${page.title} | JJH WIKI`, description: page.description }
 }
 
 export default async function WikiPage({ params }: Props) {

@@ -14,7 +14,7 @@ export default function Sidebar({ pagesByCategory }: SidebarProps) {
   return (
     <aside className="w-64 shrink-0 border-r border-gray-200 bg-gray-50 min-h-screen p-4">
       <Link href="/" className="block mb-6">
-        <h1 className="text-xl font-bold text-indigo-600">AI 위키</h1>
+        <h1 className="text-xl font-bold text-indigo-600">JJH WIKI</h1>
         <p className="text-xs text-gray-500 mt-0.5">AI 지식 정리 공간</p>
       </Link>
 
