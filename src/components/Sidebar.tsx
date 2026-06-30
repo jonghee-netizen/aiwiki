@@ -21,9 +21,12 @@ export default function Sidebar({ pagesByCategory }: SidebarProps) {
       <nav className="space-y-5">
         {Object.entries(pagesByCategory).map(([category, pages]) => (
           <div key={category}>
-            <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2 px-2">
+            <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-1 px-2">
               {getCategoryLabel(category)}
             </p>
+            {category === 'ax-project' && (
+              <p className="text-xs text-indigo-500 font-medium px-2 mb-2">NAS Video Quick Searcher</p>
+            )}
             <ul className="space-y-0.5">
               {pages.map((page) => {
                 const href = `/wiki/${page.slug.join('/')}`

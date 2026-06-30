@@ -8,6 +8,7 @@ export default function HomePage() {
     models: '🤖',
     concepts: '💡',
     tools: '🔧',
+    'ax-project': '📁',
   }
 
   return (
